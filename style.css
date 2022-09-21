@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Poppins";
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav img{
+    height: 50px;
+    margin-left: 105px;
+    margin-top: 10px;
+}
+
+.nav-items{
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+    align-items: center;
+}
+.nav-items{
+    font-size: 20px;
+    font-weight: 300;
+    cursor: pointer;
+}
+.active-item{
+    color: #fe5e35;
+    font-weight: 600;
+}
+.intro-section{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+
+}
+.left-section{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 105px;
+}
+.left-section h3{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 36px;
+    font-weight: 400;
+}
+.left-section h3 img{
+    height: 43px;
+}
+.left-section h1{
+    font-size: 65px;
+    font-weight: 400;
+    font-family:  "Fredoka One";
+}
+.sub-headlines{
+    display: flex;
+    flex-direction: column;
+    grid-area: 30px;
+    margin-left: 80px;
+
+}
+.sub-headline{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.sub-headline img{
+    background-color: #fe5e35;
+    padding: 5px;
+    margin: 12px;
+    border-radius: 50px;  
+    cursor: pointer;
+
+}
+.text{
+    opacity: 0.5;
+    font-size: 16px;
+    padding: 10px;
+}
+.action-btns{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    /* margin-left: 105px; */
+}
+.action-btn{
+    display: block;
+    background-color: #fe5e35;
+    color: #ffffff;
+    border: none;
+    padding: 15px;
+    border-radius: 40px;
+    cursor: pointer;
+
+}
+.right-section{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 30px;
+}
+.headphone-div{
+
+}
+.discount{
+    position: absolute;
+    top: 375px;
+    left: -35px;
+    height: 150px;
+}
+.discount-content{
+    position: absolute;
+    top: 400px;
+    color: #ffffff;
+    font-family: "Fredoka One";
+    font-size: 15px;
+    padding: 10px;
+
+}
+.dots{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 30px;
+}
+.dot{
+    padding: 15px;
+    border-radius: 50px;
+}
+ .yellow-dot{
+    background-color: #fbd104;
+}
+ .tomato-dot{
+    background-color: #fe5e35;
+}
+ .black-dot{
+    background-color: #000000;
+}
+.right-section > .action-btn{
+    width: 150px;
+    height: 50px;
+    margin-left: 233px;
+}
